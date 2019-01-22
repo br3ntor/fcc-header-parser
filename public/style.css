@@ -1,0 +1,46 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #FaFaFa;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+header {
+  overflow: auto;
+}
+
+table {
+  width: 50%;
+  margin: 25px auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td {
+  text-align: left;
+}
+
+thead th {
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #46acc7;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
